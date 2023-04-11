@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090909"
+    tools:context=".coverpage">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:outlineAmbientShadowColor="#FABD06"
+        android:outlineSpotShadowColor="#FFC107"
+        app:srcCompat="@drawable/mad_icon5" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:lineBreakStyle="loose"
+        android:lineBreakWordStyle="phrase"
+        android:scrollbarStyle="insideOverlay"
+        android:shadowColor="#202323"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="1"
+        android:text="CRYPTO CONTROL"
+        android:textAlignment="center"
+        android:textColor="#D19640"
+        android:textColorHighlight="#D19640"
+        android:textColorHint="#D19640"
+        android:textColorLink="#D19640"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:translationY="100dp"
+        android:typeface="normal" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:shadowColor="#202323"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="0.01"
+        android:text="Developed By:"
+        android:textAlignment="center"
+        android:textColor="#D19640"
+        android:textColorHighlight="#D19640"
+        android:textColorHint="#D19640"
+        android:textColorLink="#D19640"
+        android:textStyle="bold"
+        android:translationY="550dp"
+        android:typeface="normal" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:outlineAmbientShadowColor="#202323"
+        android:outlineSpotShadowColor="#202323"
+        android:shadowColor="#202323"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="1"
+        android:text="S001, S009, S039"
+        android:textAlignment="center"
+        android:textColor="#D19640"
+        android:textColorHighlight="#D19640"
+        android:textColorHint="#D19640"
+        android:textColorLink="#D19640"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:translationY="575dp"
+        android:typeface="normal" />
+
+</RelativeLayout>
